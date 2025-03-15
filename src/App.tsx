@@ -24,7 +24,7 @@ function App() {
 						<h1>Vite + React</h1>
 					</CardTitle>
 				</CardHeader>
-				<CardContent className="border-2 rounded m-auto w-1/2">
+				<CardContent className="m-auto w-1/2 rounded border-2 p-4">
 					<Button onClick={() => setCount((count) => count + 1)}>count is {count}</Button>
 					<p>
 						Edit <code>src/App.tsx</code> and save to test HMR
